@@ -27,7 +27,9 @@
     -->
     <Resource name="jdbc/myoracle" auth="Container"
               type="javax.sql.DataSource" driverClassName="oracle.jdbc.OracleDriver"
-              url="jdbc:oracle:thin:@teampegaone.csuup5z2xvsg.us-east-2.rds.amazonaws.com:1521:ORCL"
-              username="TeamPegaOne" password="TeamPegaOne'sPassword" maxTotal="20" maxIdle="10"
+              url=""
+              username="" password="" maxTotal="20" maxIdle="10"
               maxWaitMillis="-1"/>
+  
+  <!--YOU WANT TO PUT YOUR SQL DATABASE INFORMATION HERE-->
 </Context>
